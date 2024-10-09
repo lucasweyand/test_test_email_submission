@@ -1,0 +1,151 @@
+
+.p_page_content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 5vw;
+  background-color: transparent;
+  margin-top: 0vh
+}
+
+.p_sub_page_content{
+  flex:1;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap:1vw;
+  overflow: hidden;
+}
+
+.p_page_content > :first-child{
+  margin-top: 3vh;
+}
+
+.p_logo{
+  height: 4vh;
+  width: auto;
+  padding-top: 1vh;
+}
+
+.p_logo path{
+  stroke: #ffa400;
+  fill: #ffa400;
+  stroke-width: 0px;
+}
+
+
+.p_title{
+  padding-top: 0;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: end;
+}
+.p_sub_page_content h1{
+  font-family:'EB';
+  font-size: 22px;
+  padding: 0 20% 0 20%;
+  line-height: 0;
+  font-weight:lighter;
+  margin: 0;
+}
+.p_sub_page_content p{
+  padding: 0 20% 0 20%;
+  font-family:'EB';
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0 0 0 0;
+  font-weight: 1;
+  letter-spacing: .02em;
+
+}
+
+.specifications {
+  justify-content: end;
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+}
+
+.specifications div{
+  flex: 1;
+  width: 100%;
+  height: auto;
+}
+
+.specifications h3{
+  padding: 0 20% 0 20%;
+  text-align: center;
+  font-family: "EB";
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.p_sub_page_content img{
+  height: 65vh;
+  width: auto;
+  object-fit: cover;
+}
+
+#sketch{
+  height: 67vh;
+  margin-top: 3vh;
+}
+
+#gallery1{
+  margin-top: 3vh;
+}
+
+.p_button {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  color: #4e4e4e;
+  cursor: pointer;
+  transition: border 0.3s ease, color 0.3s ease;
+  height: 2vh;
+  width: auto; /* Set line-height to match height for vertical centering */
+  text-align: center; /* Center text horizontally */
+  margin-bottom: 20px;
+  line-height: 0.8;
+}
+
+.p_button_img{
+  height: 70%;
+  width: auto;
+  align-self: center;
+  justify-self: center;
+  padding: 0 0 0 0.3%;
+}
+
+.p_button_img img{
+height: 100%;
+width: auto;
+display: flex;
+}
+
+
+.p_button a {
+  font-family:'EB';
+  color: inherit; /* Inherit color from the parent to apply hover effect */
+  text-decoration: none;
+  font-size: 17px;
+  align-self: center;
+  text-decoration: underline;
+}
+
+.p_button:hover {
+ filter: opacity(80%);
+}
+
